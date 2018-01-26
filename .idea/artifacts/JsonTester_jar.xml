@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JsonTester:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JsonTester_jar</output-path>
+    <root id="archive" name="JsonTester.jar">
+      <element id="module-output" name="JsonTester" />
+    </root>
+  </artifact>
+</component>
