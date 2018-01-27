@@ -22,19 +22,6 @@ public class Main {
         return content;
     }
 
-    public static String parse_json(String jsonString) {
-        // Object Classes
-        HashMap parsedJSONMap = null;
-        CurrentTimeZone readObject = null;
-        try {
-            parsedJSONMap = (HashMap) JSONUtilities.parse(jsonString);
-            readObject = new CurrentTimeZone(parsedJSONMap);
-            return parsedJSONMap.toString();
-        } catch (Exception e) {
-            System.out.println("Failed to Parse Json String: " + e.toString());
-            return null;
-        }
-    }
 
     public static CurrentTimeZone parse_json_timezone(String jsonString) {
         // Object Classes
@@ -49,8 +36,6 @@ public class Main {
             return null;
         }
     }
-
-
 
 
     public static void main(String[] args){
