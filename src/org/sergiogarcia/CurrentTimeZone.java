@@ -46,6 +46,7 @@ public class CurrentTimeZone implements Serializable {
                            String countryName, String zoneName, String abbreviation,
                            int gmtOffset, String dst, int dstStart, int dstEnd,
                            String nextAbbreviation, int timestamp, String formatted) {
+
         this.status = status;
         this.message = message;
         this.countryCode = countryCode;
